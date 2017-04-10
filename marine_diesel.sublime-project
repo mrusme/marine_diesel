@@ -1,0 +1,23 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "folder_exclude_patterns": [
+                "_build",
+                "deps"
+            ],
+            "file_exclude_patterns": [
+                "*.lock"
+            ]
+        }
+    ],
+    "SublimeLinter": {
+        "linters": {
+            "elixirc": {
+                "mix_project": true,
+                "chdir": "${project}"
+            }
+        }
+    }
+}
