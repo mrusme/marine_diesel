@@ -20,38 +20,38 @@ Currently supported API versions:
 		- [ ] Query parameter: `link`
 - [ ] [Images](https://docs.docker.com/engine/api/v1.27/#tag/Image)
 - [x] [Networks](https://docs.docker.com/engine/api/v1.27/#tag/Network)
--- [x] [List Networks](https://docs.docker.com/engine/api/v1.27/#operation/NetworkList)
---- [ ] Query parameter: `filters`
--- [x] [Inspect network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkInspect)
--- [x] [Remove network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkDelete)
--- [x] [Create network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkCreate)
--- [ ] [Connect a container to a network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkConnect)
--- [ ] [Disconnect a container from a network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkDisconnect)
--- [ ] [Delete unused networks](https://docs.docker.com/engine/api/v1.27/#operation/NetworkPrune)
---- [ ] Query parameter: `filters`
+	- [x] [List Networks](https://docs.docker.com/engine/api/v1.27/#operation/NetworkList)
+		- [ ] Query parameter: `filters`
+	- [x] [Inspect network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkInspect)
+	- [x] [Remove network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkDelete)
+	- [x] [Create network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkCreate)
+	- [ ] [Connect a container to a network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkConnect)
+	- [ ] [Disconnect a container from a network](https://docs.docker.com/engine/api/v1.27/#operation/NetworkDisconnect)
+	- [ ] [Delete unused networks](https://docs.docker.com/engine/api/v1.27/#operation/NetworkPrune)
+		- [ ] Query parameter: `filters`
 - [ ] [Volumes](https://docs.docker.com/engine/api/v1.27/#tag/Volume)
 - [ ] [Exec](https://docs.docker.com/engine/api/v1.27/#tag/Exec)
 - [ ] [Swam](https://docs.docker.com/engine/api/v1.27/#tag/Swarm)
 - [ ] [Nodes](https://docs.docker.com/engine/api/v1.27/#tag/Node)
 - [x] [Services](https://docs.docker.com/engine/api/v1.27/#tag/Service)
--- [x] [List services](https://docs.docker.com/engine/api/v1.27/#operation/ServiceList)
---- [ ] Query parameter: `filters`
--- [x] [Create service](https://docs.docker.com/engine/api/v1.27/#operation/ServiceCreate)
---- [x] Header: `X-Registry-Auth`
--- [x] [Inspect service](https://docs.docker.com/engine/api/v1.27/#operation/ServiceInspect)
--- [x] [Delete service](https://docs.docker.com/engine/api/v1.27/#operation/ServiceDelete)
--- [ ] [Update service](https://docs.docker.com/engine/api/v1.27/#operation/ServiceUpdate)
---- [ ] Query parameter: `version`
---- [ ] Query parameter: `registryAuthFrom`
---- [x] Header: `X-Registry-Auth`
--- [ ] [Get service logs](https://docs.docker.com/engine/api/v1.27/#operation/ServiceLogs)
---- [ ] Query parameter: `details`
---- [ ] Query parameter: `follow`
---- [ ] Query parameter: `stdout`
---- [ ] Query parameter: `stderr`
---- [ ] Query parameter: `since`
---- [ ] Query parameter: `timestamps`
---- [ ] Query parameter: `tail`
+	- [x] [List services](https://docs.docker.com/engine/api/v1.27/#operation/ServiceList)
+		- [ ] Query parameter: `filters`
+	- [x] [Create service](https://docs.docker.com/engine/api/v1.27/#operation/ServiceCreate)
+		- [x] Header: `X-Registry-Auth`
+	- [x] [Inspect service](https://docs.docker.com/engine/api/v1.27/#operation/ServiceInspect)
+	- [x] [Delete service](https://docs.docker.com/engine/api/v1.27/#operation/ServiceDelete)
+	- [ ] [Update service](https://docs.docker.com/engine/api/v1.27/#operation/ServiceUpdate)
+		- [ ] Query parameter: `version`
+		- [ ] Query parameter: `registryAuthFrom`
+		- [x] Header: `X-Registry-Auth`
+	- [ ] [Get service logs](https://docs.docker.com/engine/api/v1.27/#operation/ServiceLogs)
+		- [ ] Query parameter: `details`
+		- [ ] Query parameter: `follow`
+		- [ ] Query parameter: `stdout`
+		- [ ] Query parameter: `stderr`
+		- [ ] Query parameter: `since`
+		- [ ] Query parameter: `timestamps`
+		- [ ] Query parameter: `tail`
 - [ ] [Tasks](https://docs.docker.com/engine/api/v1.27/#tag/Task)
 - [ ] [Secrets](https://docs.docker.com/engine/api/v1.27/#tag/Secret)
 - [ ] [Plugins](https://docs.docker.com/engine/api/v1.27/#tag/Plugin)
